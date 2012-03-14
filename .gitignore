@@ -9,10 +9,13 @@
 
 # Ignore vim temp files
 /*.swp
-
 # Ignore the default SQLite database.
 /db/*.sqlite3
 
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+app/views/layouts/.application.html.erb.swp
+
+app/views/products/.index.html.erb.swp
