@@ -1,1 +1,3 @@
 Creating a prototype shopping cart application with Ruby on Rails
+
+Based of example from Agile Web Development with Rails (4th edition) by Sam Ruby
