@@ -1,3 +1,10 @@
-Creating a prototype shopping cart application with Ruby on Rails
+Prototype sales application for a book store. 
+
+Features:
+-Store front
+-Admin database gui for maintaining products
+-Shopping Cart
+
+Created with Ruby on Rails
 
 Based of example from Agile Web Development with Rails (4th edition) by Sam Ruby
