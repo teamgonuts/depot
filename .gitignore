@@ -9,6 +9,7 @@
 
 # Ignore vim temp files
 /*.swp
+/*.sw*
 # Ignore the default SQLite database.
 /db/*.sqlite3
 
