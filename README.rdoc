@@ -1,9 +1,9 @@
 Prototype sales application for a book store. 
 
 Features:
--Store front
--Admin database gui for maintaining products
--Shopping Cart
+1. Store front
+2. Admin database gui for maintaining products
+3. Shopping Cart
 
 Created with Ruby on Rails
 
