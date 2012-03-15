@@ -1,16 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Depot</title>
+  <title>Online Bookstore</title>
   <%= stylesheet_link_tag "depot.css", :media => "all" %>
-  <%= stylesheet_link_tag "scaffold", :media => "all" %>
+  <%= stylesheet_link_tag "scaffold" %>
   <%= javascript_include_tag "prototype"%>
   <%= javascript_include_tag "rails"%>
   <%= csrf_meta_tags %>
 </head>
-<body>
+<body id="store">
+    <div id="banner">
+        <%= image_tag("logo.png") %>
+        <%= @page_title || "Pragmatic Bookshelf" %>
+    </div>
 
-<%= yield %>
+    <div id="columns">
+        <div id="side">
+            <a href="http://www....">Home</a><br />
+            <a href="http://www..../faq">Questions</a><br />
+            <a href="http://www..../news">News</a><br />
+            <a href="http://www..../contact">Contact</a><br />
+        </div><!-- end left-side bar -->
 
+        <div id="main">
+            <%= yield %>
+        </div><!--end of main -->
+    </div> <!-- end columns -->
 </body>
 </html>
